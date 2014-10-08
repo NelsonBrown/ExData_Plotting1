@@ -26,6 +26,5 @@ plot(ds$DateTime,ds$Voltage,main = "", type = "l",
      xlab="datetime", ylab = "Voltage")
 plot(ds$DateTime,ds$Global_reactive_power,main = "", type = "l",
      xlab="datetime", ylab = "Global Reactive Power")
-dev.copy(png, file = "
-         plot4.png", width =480, height=480)
+dev.copy(png, file = "plot4.png", width =480, height=480)
 dev.off()
